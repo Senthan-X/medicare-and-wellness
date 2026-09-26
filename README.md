@@ -31,7 +31,7 @@ Earlier source themes remain in their original folders for reference: Meridian F
 - Self-contained HTML releases with embedded WebP imagery and no external runtime dependencies.
 - Eight-language support: English, Spanish, French, German, Portuguese, Arabic, Chinese and Swahili.
 - Arabic right-to-left layout, responsive design, light and dark themes, accessible interactions and reduced-motion support.
-- Distinct visual systems and care pathways, with fictional business details set across East Africa.
+- Distinct visual systems and care pathways, with East African settings and contacts, varied across releases.
 - Hero imagery uses a full-background treatment when a release includes a hero image.
 
 The collection gateway itself also supports eight languages, Arabic RTL, responsive layouts, light and dark themes, filters, and direct links to each published release.
