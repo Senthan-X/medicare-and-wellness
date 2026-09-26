@@ -4,7 +4,7 @@ Afya Atlas is the Medicare and wellness template gateway by **Senthan & Co**. It
 
 - **Collection I:** five releases across family medicine, family dentistry, pediatric dentistry, smile design and orthodontics.
 - **Collection II:** six releases across rehabilitation, vision, maternal care, community health, home care and diagnostics.
-- **Status:** ten releases are published in this repository. Collection II V9, **Jirani Community Health**, is built and awaiting publication.
+- **Status:** eleven releases are published in this repository, including Collection II V9, **Jirani Community Health**.
 
 Open [`index.html`](index.html) for the collection gateway. Each published card links to its standalone template folder.
 
@@ -20,7 +20,7 @@ Open [`index.html`](index.html) for the collection gateway. Each published card 
 | II · V6 | Songa Care | [`songa-care-rehabilitation-mobility-v6/`](songa-care-rehabilitation-mobility-v6/) | Published |
 | II · V7 | Ona Vision Studio | [`ona-vision-studio-v7/`](ona-vision-studio-v7/) | Published |
 | II · V8 | Nia Maternal Care | [`nia-maternal-care-v8/`](nia-maternal-care-v8/) | Published |
-| II · V9 | Jirani Community Health | — | Built; awaiting publication |
+| II · V9 | Jirani Community Health | [`jirani-community-health-v9/`](jirani-community-health-v9/) | Published |
 | II · V10 | Wema at Home | [`wema-at-home/`](wema-at-home/) | Published |
 | II · V11 | Kipimo Diagnostics | [`kipimo-diagnostics/`](kipimo-diagnostics/) | Published |
 
