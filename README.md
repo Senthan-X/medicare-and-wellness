@@ -37,4 +37,4 @@ Earlier source themes remain available in their original folders for reference: 
 
 The gateway supports all eight languages, Arabic RTL, responsive layouts, light and dark themes, release filters and direct links to every published template.
 
-A release screenshot must be captured from the matching current release page. The existing PNGs in [`previews/`](previews/) show earlier source themes and are reference images, not screenshots of the current Afya Atlas releases. Each release remains directly viewable through its card link.
+The collection cards use scaled, lazy-loaded previews of each matching current release page, following the original Afya Atlas screenshot-card concept. Each preview loads the standalone page from its release folder; no generated or legacy screenshot is substituted. The PNGs in [`previews/`](previews/) remain reference captures of earlier source themes.
