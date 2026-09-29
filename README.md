@@ -31,6 +31,7 @@ Earlier source themes remain available in their original folders for reference: 
 - Keep each template self-contained, with embedded WebP imagery and no external runtime dependencies.
 - Support English, Spanish, French, German, Portuguese, Arabic, Chinese and Swahili. Arabic uses right-to-left layout.
 - Provide responsive layouts, light and dark themes, accessible interactions and reduced-motion support.
+- Let visitors open grouped imagery in a keyboard-accessible, multilingual close-up preview.
 - Keep the gateway in one page with clear Collection I and II groupings, direct links to all published releases, and a roadmap ready for the next release.
 
 ## Gateway and previews
