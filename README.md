@@ -13,7 +13,7 @@ Open [`index.html`](index.html) to browse the gateway. Each release card links t
 | I | V1 | Moyo Care House | [`moyo-care-house/`](moyo-care-house/) | Published |
 | I | V2 | Bahari Family Dental | [`harborview-family-dental-v2/`](harborview-family-dental-v2/) | Published |
 | I | V3 | Kito Pediatric Dental | [`kito-pediatric-dental-v3/`](kito-pediatric-dental-v3/) | Published |
-| I | V4 | Vela Smile Studio | [`lumina-smile-studio/`](lumina-smile-studio/) | Published |
+| I | V4 | Lumina Smile Studio | [`lumina-smile-studio/`](lumina-smile-studio/) | Published |
 | I | V5 | Vector Orthodontics | [`vector-orthodontics-v5/`](vector-orthodontics-v5/) | Published |
 | II | V6 | Songa Care — Rehabilitation & Mobility | [`songa-care-rehabilitation-mobility-v6/`](songa-care-rehabilitation-mobility-v6/) | Published |
 | II | V7 | Ona Vision Studio | [`ona-vision-studio-v7/`](ona-vision-studio-v7/) | Published |
