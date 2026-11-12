@@ -56,7 +56,8 @@ function safeGet(k){try{return localStorage.getItem(k)}catch(e){return null}}
 function safeSet(k,v){try{localStorage.setItem(k,v)}catch(e){}}
 const langSelect=$('#languageSelect');
 function applyLanguage(code,save=true){const lang=I18N[code]?code:'en';document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';langSelect.value=lang;$$('[data-i18n]').forEach(el=>{const key=el.dataset.i18n;if(I18N[lang][key]!==undefined)el.textContent=I18N[lang][key]});$$('[data-i18n-html]').forEach(el=>{const key=el.dataset.i18nHtml;if(I18N[lang][key]!==undefined)el.innerHTML=I18N[lang][key]});$$('[data-i18n-aria]').forEach(el=>{const key=el.dataset.i18nAria;if(I18N[lang][key]!==undefined)el.setAttribute('aria-label',I18N[lang][key])});if(save)safeSet('kipimo-language',lang);$('#planResult').textContent=I18N[lang].planDefault}
-const savedLang=safeGet('kipimo-language');const browserLang=(navigator.language||'en').slice(0,2).toLowerCase();vedLang=I18N[savedLang]?savedLang:(I18N[browserLang]?browserLang:'en');applyLanguage(vedLang);
+const savedLang=safeGet('kipimo-language');const browserLang=(navigator.language||'en').slice(0,2).toLowerCase();const initialLang=I18N[savedLang]?savedLang:(I18N[browserLang]?browserLang:'en');applyLanguage(initialLang, false);
+langSelect.addEventListener('change', () => applyLanguage(langSelect.value));
 const savedTheme=safeGet('kipimo-theme');document.documentElement.dataset.theme=savedTheme==='dark'?'dark':'light';
 $('#themeToggle').addEventListener('click',()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;safeSet('kipimo-theme',next)});
 const nav=$('#mainNav'),navToggle=$('#navToggle');
